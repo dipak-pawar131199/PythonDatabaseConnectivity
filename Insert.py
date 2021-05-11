@@ -5,6 +5,7 @@ SQL='insert into emp values(1,'Rakesh',10000)'
 try:
    Cursor.execute(SQL)
    Con.commit() # save changes in database
+   print("Records inserted sucessfully")
 except Exception  as e:
   Con.rollback() # rollback transection
   print(e)
