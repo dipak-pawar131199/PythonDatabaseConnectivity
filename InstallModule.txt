@@ -1,0 +1,15 @@
+Hi,
+Reader.
+  Today we discussed about how you can install 
+mysql connector   using simple following steps
+
+step1:open terminal or cmd command prompt
+step2: type pip install mysql.connector 
+step3:press Enter key. Now your modules start installing it take some time depending on your network speed.
+step4: for checking whether module is installed or not 
+       open python shell and try to import mysql.connector
+       if it run without error ie. in your system mysql connector successfully installed.
+
+
+
+ 
